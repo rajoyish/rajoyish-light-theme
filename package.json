@@ -1,7 +1,7 @@
 {
   "name": "rajoyish",
   "displayName": "Rajoyish",
-  "description": "An awesome color theme for artisans!",
+  "description": "A light color theme hand-crafted for PHP/Laravel artisans!",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.75.0"
