@@ -1,0 +1,21 @@
+{
+  "name": "rajoyish",
+  "displayName": "Rajoyish",
+  "description": "An awesome color theme for artisans!",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Rajoyish",
+        "uiTheme": "vs",
+        "path": "./themes/Rajoyish-color-theme.json"
+      }
+    ]
+  }
+}
