@@ -16,6 +16,7 @@
     "editor.background": "#FAFBFC",
     "editor.foreground": "#1B0273",
     "editorWhitespace.foreground": "#ADB1C255",
+    "editorCursor.foreground": "#7b08ee",
 
     // Title bar
     "titleBar.activeBackground": "#F3F4F5",
@@ -160,15 +161,15 @@
 
     // Inlay hints
     "editorInlayHint.foreground": "#1B0273",
-    "editorInlayHint.background": "#E9EAEB",
+    "editorInlayHint.background": "#E9EAEB"
   },
   "tokenColors": [
     {
       "name": "Invalid - Illegal",
       "scope": "invalid.illegal",
       "settings": {
-        "foreground": "#FF5C56",
-      },
+        "foreground": "#FF5C56"
+      }
     },
     {
       "name": "Property names",
@@ -178,11 +179,11 @@
         "meta.object-literal string",
         "meta.object-literal string constant.character.escape",
         "support.type.property-name",
-        "support.type.property-name constant.character.escape",
+        "support.type.property-name constant.character.escape"
       ],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "Keywords",
@@ -195,18 +196,15 @@
         "keyword.operator.expression.delete"
       ],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
     {
       "name": "Keywords: Blade Directive",
-      "scope": [
-        "keyword.blade",
-        "text.html.php.blade",
-      ],
+      "scope": ["keyword.blade", "text.html.php.blade"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Types",
@@ -216,74 +214,60 @@
         "new.expr meta.type.parameters entity.name.type",
         "storage.type.primitive",
         "storage.type.built-in.primitive",
-        "meta.function.parameter storage.type",
+        "meta.function.parameter storage.type"
       ],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Annotations",
-      "scope": [
-        "storage.type.annotation",
-      ],
+      "scope": ["storage.type.annotation"],
       "settings": {
-        "foreground": "#C25193",
-      },
+        "foreground": "#C25193"
+      }
     },
     {
       "name": "Units",
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#FF5C57CC",
-      },
+        "foreground": "#E80022"
+      }
     },
     {
       "name": "Language Constants",
-      "scope": [
-        "constant.language",
-        "support.constant",
-        "variable.language",
-      ],
+      "scope": ["constant.language", "support.constant", "variable.language"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Variables",
-      "scope": [
-        "variable",
-        "support.variable",
-      ],
+      "scope": ["variable", "support.variable"],
       "settings": {
-        "foreground": "#1B0273",
-      },
+        "foreground": "#1B0273"
+      }
     },
     {
       "name": "this Variables",
       "scope": "variable.language.this",
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "Functions",
-      "scope": [
-        "entity.name.function",
-        "support.function",
-      ],
+      "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#09A1ED",
-      },
+        "foreground": "#09A1ED"
+      }
     },
     {
       "name": "Decorators",
-      "scope": [
-        "entity.name.function.decorator",
-      ],
+      "scope": ["entity.name.function.decorator"],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "Classes",
@@ -291,82 +275,76 @@
         "meta.class entity.name.type",
         "new.expr entity.name.type",
         "entity.other.inherited-class",
-        "support.class",
+        "support.class"
       ],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Preprocessors",
       "scope": [
         "keyword.preprocessor.pragma",
         "keyword.control.directive.include",
-        "keyword.other.preprocessor",
+        "keyword.other.preprocessor"
       ],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "Exceptions",
       "scope": "entity.name.exception",
       "settings": {
-        "foreground": "#FF5C56",
-      },
+        "foreground": "#FF5C56"
+      }
     },
     {
       "name": "Sections",
       "scope": "entity.name.section",
       "settings": {
         // "fontStyle": "underline"
-      },
+      }
     },
     {
       "name": "Numbers, Characters",
       "scope": [
-        "constant.numeric",
+        "constant.numeric"
         // "constant.character",
         // "constant"
       ],
       "settings": {
-        "foreground": "#FF5C57",
-      },
+        "foreground": "#E80022"
+      }
     },
     {
       "name": "Constants",
-      "scope": [
-        "constant",
-        "constant.character",
-      ],
+      "scope": ["constant", "constant.character"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Strings",
       "scope": "string",
       "settings": {
-        "foreground": "#B59410",
-      },
+        "foreground": "#B59410"
+      }
     },
 
     {
       "name": "Strings: Escape Sequences",
       "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#F5B900",
-      },
+        "foreground": "#F5B900"
+      }
     },
     {
       "name": "Strings: Regular Expressions",
-      "scope": [
-        "string.regexp",
-        "string.regexp constant.character.escape",
-      ],
+      "scope": ["string.regexp", "string.regexp constant.character.escape"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "Strings: Regular Expressions Punctuation",
@@ -378,93 +356,80 @@
         "string.regexp keyword",
         "string.regexp keyword.control",
         "string.regexp constant",
-        "variable.other.regexp",
+        "variable.other.regexp"
       ],
       "settings": {
-        "foreground": "#00A39F",
-      },
+        "foreground": "#00A39F"
+      }
     },
     {
       "name": "Strings: Regular Expressions Modifier Flags",
-      "scope": [
-        "string.regexp keyword.other",
-      ],
+      "scope": ["string.regexp keyword.other"],
       "settings": {
-        "foreground": "#00A39F88",
-      },
+        "foreground": "#00A39F88"
+      }
     },
     {
       "name": "Strings: Symbols",
       "scope": "constant.other.symbol",
       "settings": {
-        "foreground": "#CF9C00",
-      },
+        "foreground": "#CF9C00"
+      }
     },
     {
       "name": "Comments",
-      "scope": [
-        "comment",
-        "punctuation.definition.comment",
-      ],
+      "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
         "foreground": "#ADB1C2",
         "fontStyle": "italic"
-      },
+      }
     },
     {
       "name": "Comments: Preprocessor",
       "scope": "comment.block.preprocessor",
       "settings": {
         "fontStyle": "",
-        "foreground": "#9194A2",
-      },
+        "foreground": "#9194A2"
+      }
     },
     {
       "name": "DocBlock: Type",
       "scope": "comment.block.documentation entity.name.type",
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "DocBlock: Keyword",
       "scope": [
         "comment.block.documentation storage",
         "comment.block.documentation keyword.other",
-        "meta.class comment.block.documentation storage.type",
+        "meta.class comment.block.documentation storage.type"
       ],
       "settings": {
-        "foreground": "#9194A2",
-      },
+        "foreground": "#9194A2"
+      }
     },
     {
       "name": "DocBlock: Variable",
-      "scope": [
-        "comment.block.documentation variable",
-      ],
+      "scope": ["comment.block.documentation variable"],
       "settings": {
-        "foreground": "#C25193",
-      },
+        "foreground": "#C25193"
+      }
     },
     {
       "name": "Punctuation",
-      "scope": [
-        "punctuation",
-      ],
+      "scope": ["punctuation"],
       "settings": {
-        "foreground": "#E80022",
-      },
+        "foreground": "#E80022"
+      }
     },
     {
       "name": "Operators",
-      "scope": [
-        "keyword.operator",
-        "keyword.other.arrow",
-        "keyword.control.@",
-      ],
+      "scope": ["keyword.operator", "keyword.other.arrow", "keyword.control.@"],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
 
     // HTML Overrides
@@ -476,12 +441,11 @@
         "meta.tag.sgml.doctype",
         "meta.tag.sgml.doctype string",
         "meta.tag.sgml.doctype entity.name.tag",
-        "meta.tag.sgml punctuation.definition.tag.html",
+        "meta.tag.sgml punctuation.definition.tag.html"
       ],
       "settings": {
-        "foreground": "#9194A2",
-
-      },
+        "foreground": "#9194A2"
+      }
     },
     {
       "name": "HTML: Tags",
@@ -489,49 +453,44 @@
         "meta.tag",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
-        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#9194A2",
-      },
+        "foreground": "#9194A2"
+      }
     },
     {
       "name": "HTML: Tag Names",
       "scope": ["entity.name.tag"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "HTML: Attribute Names",
       "scope": [
         "meta.tag entity.other.attribute-name",
-        "entity.other.attribute-name.html",
+        "entity.other.attribute-name.html"
       ],
       "settings": {
         "foreground": "#3866F2",
         "fontStyle": "italic"
-      },
+      }
     },
     {
       "name": "HTML: Entities",
-      "scope": [
-        "constant.character.entity",
-        "punctuation.definition.entity",
-      ],
+      "scope": ["constant.character.entity", "punctuation.definition.entity"],
       "settings": {
-        "foreground": "#CF9C00",
-      },
+        "foreground": "#CF9C00"
+      }
     },
 
     // CSS Overrides
     {
       "name": "CSS: Base font color (just to colorize multi-selector commas correctly)",
-      "scope": [
-          "source.css",
-      ],
+      "scope": ["source.css"],
       "settings": {
-          "foreground": "#ADB1C2"
+        "foreground": "#ADB1C2"
       }
     },
     {
@@ -540,66 +499,59 @@
         "meta.selector",
         "meta.selector entity",
         "meta.selector entity punctuation",
-        "source.css entity.name.tag",
+        "source.css entity.name.tag"
       ],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
     {
       "name": "CSS: At-rules",
       "scope": [
-          "keyword.control.at-rule",
-          "keyword.control.at-rule punctuation.definition.keyword",
+        "keyword.control.at-rule",
+        "keyword.control.at-rule punctuation.definition.keyword"
       ],
       "settings": {
-        "foreground": "#C25193",
-      },
+        "foreground": "#C25193"
+      }
     },
     {
       "name": "CSS: Variables",
       "scope": "source.css variable",
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "CSS: Property Names",
       "scope": [
         "source.css meta.property-name",
-        "source.css support.type.property-name",
+        "source.css support.type.property-name"
       ],
       "settings": {
-        "foreground": "#1B0273",
-      },
+        "foreground": "#1B0273"
+      }
     },
     {
       "name": "CSS: Vendored Property Names",
-      "scope": [
-        "source.css support.type.vendored.property-name",
-      ],
+      "scope": ["source.css support.type.vendored.property-name"],
       "settings": {
-        "foreground": "#1B0273AA",
-      },
+        "foreground": "#1B0273AA"
+      }
     },
     {
       "name": "CSS: Property Values",
-      "scope": [
-        "meta.property-value",
-        "support.constant.property-value",
-      ],
+      "scope": ["meta.property-value", "support.constant.property-value"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "CSS: Constant",
-      "scope": [
-        "source.css support.constant",
-      ],
+      "scope": ["source.css support.constant"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "CSS: Selector punctuation",
@@ -608,54 +560,48 @@
         "keyword.operator.combinator.css"
       ],
       "settings": {
-        "foreground": "#FF82CBBB",
-      },
+        "foreground": "#E80022"
+      }
     },
     {
       "name": "CSS: Functions",
-      "scope": [
-        "source.css support.function",
-      ],
+      "scope": ["source.css support.function"],
       "settings": {
-        "foreground": "#09A1ED",
-      },
+        "foreground": "#09A1ED"
+      }
     },
     {
       "name": "CSS: Important Keyword",
       "scope": "keyword.other.important",
       "settings": {
-        "foreground": "#238744",
-      },
+        "foreground": "#238744"
+      }
     },
 
     // Sass Overrides
     {
       "name": "SCSS: Base font color",
-      "scope": [
-          "source.css.scss",
-      ],
+      "scope": ["source.css.scss"],
       "settings": {
-          "foreground": "#5200E8"
+        "foreground": "#5200E8"
       }
     },
     {
       "name": "SCSS: Class names & IDs",
       "scope": [
         "source.css.scss entity.other.attribute-name.class.css",
-        "source.css.scss entity.other.attribute-name.id.css",
+        "source.css.scss entity.other.attribute-name.id.css"
       ],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
     {
       "name": "SCSS: Ampersand",
-      "scope": [
-          "entity.name.tag.reference.scss",
-      ],
+      "scope": ["entity.name.tag.reference.scss"],
       "settings": {
-        "foreground": "#C25193",
-      },
+        "foreground": "#C25193"
+      }
     },
     {
       "name": "SCSS: Additional at-rules",
@@ -665,11 +611,11 @@
         "source.css.scss meta.at-rule operator.logical",
         "keyword.control.content.scss",
         "keyword.control.return.scss",
-        "keyword.control.return.scss punctuation.definition.keyword",
+        "keyword.control.return.scss punctuation.definition.keyword"
       ],
       "settings": {
-        "foreground": "#C25193",
-      },
+        "foreground": "#C25193"
+      }
     },
     {
       "name": "SCSS: Punctuation",
@@ -679,22 +625,20 @@
         "source.css.scss meta.at-rule.if",
         "source.css.scss meta.at-rule.else",
         "source.css.scss meta.at-rule.each",
-        "source.css.scss meta.at-rule variable.parameter",
+        "source.css.scss meta.at-rule variable.parameter"
       ],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
 
     // Less Overrides
     {
       "name": "Less: Class names",
-      "scope": [
-        "source.css.less entity.other.attribute-name.class.css",
-      ],
+      "scope": ["source.css.less entity.other.attribute-name.class.css"],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
 
     // Stylus Overrides
@@ -702,37 +646,33 @@
       "name": "Stylus: Curly Braces",
       "scope": "source.stylus meta.brace.curly.css",
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
     {
       "name": "Stylus: Selectors",
       "scope": [
         "source.stylus entity.other.attribute-name.class",
         "source.stylus entity.other.attribute-name.id",
-        "source.stylus entity.name.tag",
+        "source.stylus entity.name.tag"
       ],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
     {
       "name": "Stylus: Properties",
-      "scope": [
-        "source.stylus support.type.property-name",
-      ],
+      "scope": ["source.stylus support.type.property-name"],
       "settings": {
-        "foreground": "#1B0273",
-      },
+        "foreground": "#1B0273"
+      }
     },
     {
       "name": "Stylus: Variables",
-      "scope": [
-        "source.stylus variable",
-      ],
+      "scope": ["source.stylus variable"],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
 
     // Markup Overrides
@@ -740,120 +680,114 @@
       "name": "Markup: Changed",
       "scope": "markup.changed",
       "settings": {
-        "foreground": "#888888",
-      },
+        "foreground": "#888888"
+      }
     },
     {
       "name": "Markup: Deletion",
       "scope": "markup.deleted",
       "settings": {
-        "foreground": "#888888",
-      },
+        "foreground": "#888888"
+      }
     },
     {
       "name": "Markup: Emphasis",
       "scope": "markup.italic",
       "settings": {
-        "fontStyle": "italic",
-      },
+        "fontStyle": "italic"
+      }
     },
     {
       "name": "Markup: Error",
       "scope": "markup.error",
       "settings": {
-        "foreground": "#FF5C56",
-      },
+        "foreground": "#FF5C56"
+      }
     },
     {
       "name": "Markup: Insertion",
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#888888",
-      },
+        "foreground": "#888888"
+      }
     },
     {
       "name": "Markup: Link",
       "scope": "meta.link",
       "settings": {
-        "foreground": "#CF9C00",
-      },
+        "foreground": "#CF9C00"
+      }
     },
     {
       "name": "Markup: Link Title",
       "scope": "string.other.link.title.markdown",
       "settings": {
-        "foreground": "#09A1ED",
-      },
+        "foreground": "#09A1ED"
+      }
     },
     {
       "name": "Markup: Output",
-      "scope": [
-        "markup.output",
-        "markup.raw",
-      ],
+      "scope": ["markup.output", "markup.raw"],
       "settings": {
-        "foreground": "#999999",
-      },
+        "foreground": "#999999"
+      }
     },
     {
       "name": "Markup: Prompt",
       "scope": "markup.prompt",
       "settings": {
-        "foreground": "#999999",
-      },
+        "foreground": "#999999"
+      }
     },
     {
       "name": "Markup: Heading",
       "scope": "markup.heading",
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Markup: Strong",
       "scope": "markup.bold",
       "settings": {
-        "fontStyle": "bold",
-      },
+        "fontStyle": "bold"
+      }
     },
     {
       "name": "Markup: Traceback",
       "scope": "markup.traceback",
       "settings": {
-        "foreground": "#FF5C56",
-      },
+        "foreground": "#FF5C56"
+      }
     },
     {
       "name": "Markup: Underline",
       "scope": "markup.underline",
       "settings": {
-        "fontStyle": "underline",
-      },
+        "fontStyle": "underline"
+      }
     },
     {
       "name": "Markup Quote",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#777985",
-      },
+        "foreground": "#777985"
+      }
     },
     {
       "name": "Markup Styling",
-      "scope": [
-        "markup.bold",
-        "markup.italic",
-      ],
+      "scope": ["markup.bold", "markup.italic"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "Markup Inline",
       "scope": "markup.inline.raw",
       "settings": {
         "fontStyle": "",
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
 
     // JavaScript Overrides
@@ -862,11 +796,11 @@
       "scope": [
         "meta.brace.round",
         "meta.brace.square",
-        "storage.type.function.arrow",
+        "storage.type.function.arrow"
       ],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#5200E8"
+      }
     },
     {
       "name": "JavaScript: Special import/export entities",
@@ -875,34 +809,29 @@
         "meta.import keyword.control.default"
       ],
       "settings": {
-        "foreground": "#C25193",
-      },
+        "foreground": "#C25193"
+      }
     },
     {
       "name": "JavaScript: Built-in functions",
-      "scope": [
-        "support.function.js",
-      ],
+      "scope": ["support.function.js"],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "JavaScript: RegExp",
       "scope": "string.regexp.js",
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "JavaScript: super() call and Node.js 'module'",
-      "scope": [
-        "variable.language.super",
-        "support.type.object.module.js",
-      ],
+      "scope": ["variable.language.super", "support.type.object.module.js"],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
 
     // JSX Overrides
@@ -910,8 +839,8 @@
       "name": "JSX: Plain text",
       "scope": "meta.jsx.children",
       "settings": {
-        "foreground": "#686968",
-      },
+        "foreground": "#686968"
+      }
     },
 
     // YAML Overrides
@@ -919,15 +848,15 @@
       "name": "YAML: Keys",
       "scope": "entity.name.tag.yaml",
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "YAML: Keys",
       "scope": "variable.other.alias.yaml",
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
 
     // PHP Overrides
@@ -935,80 +864,72 @@
       "name": "PHP: Start / End Tags",
       "scope": [
         "punctuation.section.embedded.begin.php",
-        "punctuation.section.embedded.end.php",
+        "punctuation.section.embedded.end.php"
       ],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "PHP: Use Aliases",
-      "scope": [
-        "meta.use.php entity.other.alias.php",
-      ],
+      "scope": ["meta.use.php entity.other.alias.php"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "PHP: Constructs",
       "scope": [
         "source.php support.function.construct",
-        "source.php support.function.var",
+        "source.php support.function.var"
       ],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "PHP: Class Syntax",
       "scope": [
         "storage.modifier.extends.php",
         "source.php keyword.other",
-        "storage.modifier.php",
+        "storage.modifier.php"
       ],
       "settings": {
         "foreground": "#5200E8",
         "fontStyle": "italic"
-      },
+      }
     },
     {
       "name": "PHP: 'function' keyword before reference-returning method",
-      "scope": [
-        "meta.class.body.php storage.type.php",
-      ],
+      "scope": ["meta.class.body.php storage.type.php"],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
     {
       "name": "PHP: Types turned pink by previous rule",
       "scope": [
         "storage.type.php",
         "meta.class.body.php meta.function-call.php storage.type.php",
-        "meta.class.body.php meta.function.php storage.type.php",
+        "meta.class.body.php meta.function.php storage.type.php"
       ],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "PHP: SQL",
-      "scope": [
-        "source.php keyword.other.DML",
-      ],
+      "scope": ["source.php keyword.other.DML"],
       "settings": {
-        "foreground": "#D94E4A",
-      },
+        "foreground": "#D94E4A"
+      }
     },
     {
       "name": "PHP: SQL",
-      "scope": [
-        "source.sql.embedded.php keyword.operator",
-      ],
+      "scope": ["source.sql.embedded.php keyword.operator"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
 
     // Config Files Overrides
@@ -1017,53 +938,46 @@
       "scope": [
         "source.ini keyword",
         "source.toml keyword",
-        "source.env variable",
+        "source.env variable"
       ],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "TOML/INI: Headlines",
       "scope": [
         "source.ini entity.name.section",
-        "source.toml entity.other.attribute-name",
+        "source.toml entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
 
     // Go Overrides
     {
       "name": "Go: Types",
-      "scope": [
-        "source.go storage.type",
-      ],
+      "scope": ["source.go storage.type"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Go: Imports",
-      "scope": [
-        "keyword.import.go",
-        "keyword.package.go",
-      ],
+      "scope": ["keyword.import.go", "keyword.package.go"],
       "settings": {
-        "foreground": "#FF5C56",
-      },
+        "foreground": "#FF5C56"
+      }
     },
 
     // Reason Overrides
     {
       "name": "Reason: Variables",
-      "scope": [
-        "source.reason variable.language string",
-      ],
+      "scope": ["source.reason variable.language string"],
       "settings": {
-        "foreground": "#1B0273",
-      },
+        "foreground": "#1B0273"
+      }
     },
     {
       "name": "Reason: Types",
@@ -1071,102 +985,87 @@
         "source.reason support.type",
         "source.reason constant.language",
         "source.reason constant.language constant.numeric",
-        "source.reason support.type string.regexp",
+        "source.reason support.type string.regexp"
       ],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Reason: Operators",
       "scope": [
         "source.reason keyword.operator keyword.control",
         "source.reason keyword.control.less",
-        "source.reason keyword.control.flow",
+        "source.reason keyword.control.flow"
       ],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
     {
       "name": "Reason: Regex strings",
-      "scope": [
-        "source.reason string.regexp",
-      ],
+      "scope": ["source.reason string.regexp"],
       "settings": {
-        "foreground": "#CF9C00",
-      },
+        "foreground": "#CF9C00"
+      }
     },
     {
       "name": "Reason: Properties",
-      "scope": [
-        "source.reason support.property-value",
-      ],
+      "scope": ["source.reason support.property-value"],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
 
     // Rust Overrides
     {
       "name": "Rust: Core functions",
-      "scope": [
-        "source.rust support.function.core.rust",
-      ],
+      "scope": ["source.rust support.function.core.rust"],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "Rust: Types",
       "scope": [
         "source.rust storage.type.core.rust",
-        "source.rust storage.class.std",
+        "source.rust storage.class.std"
       ],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Rust: Entities",
-      "scope": [
-        "source.rust entity.name.type.rust",
-      ],
+      "scope": ["source.rust entity.name.type.rust"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
 
     // CoffeeScript Overrides
     {
       "name": "CoffeeScript: Function arrows",
-      "scope": [
-        "storage.type.function.coffee",
-      ],
+      "scope": ["storage.type.function.coffee"],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
 
     // C# Overrides
     {
       "name": "C#: Types",
-      "scope": [
-        "keyword.type.cs",
-        "storage.type.cs",
-      ],
+      "scope": ["keyword.type.cs", "storage.type.cs"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "C#: Classes",
-      "scope": [
-        "entity.name.type.namespace.cs",
-      ],
+      "scope": ["entity.name.type.namespace.cs"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
 
     // Diff Overrides
@@ -1174,37 +1073,29 @@
       "name": "Diff: Headers",
       "scope": "meta.diff.header",
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "Diff: Inserted",
-      "scope": [
-        "markup.inserted.diff",
-      ],
+      "scope": ["markup.inserted.diff"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Diff: Deleted",
-      "scope": [
-        "markup.deleted.diff",
-      ],
+      "scope": ["markup.deleted.diff"],
       "settings": {
-        "foreground": "#FF5C56",
-      },
+        "foreground": "#FF5C56"
+      }
     },
     {
       "name": "Diff: Range",
-      "scope": [
-        "meta.diff.range",
-        "meta.diff.index",
-        "meta.separator",
-      ],
+      "scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
       "settings": {
-        "foreground": "#09A1ED",
-      },
+        "foreground": "#09A1ED"
+      }
     },
 
     // Makefile Overrides
@@ -1212,52 +1103,46 @@
       "name": "Make: Variables",
       "scope": "source.makefile variable",
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
 
     // Objective-C Overrides
     {
       "name": "Objective-C: Keywords",
-      "scope": [
-        "keyword.control.protocol-specification.objc",
-      ],
+      "scope": ["keyword.control.protocol-specification.objc"],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
     {
       "name": "Objective-C: Types",
       "scope": [
         "meta.parens storage.type.objc",
         "meta.return-type.objc support.class",
-        "meta.return-type.objc storage.type.objc",
+        "meta.return-type.objc storage.type.objc"
       ],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
 
     // SQL Overrides
     {
       "name": "SQL: Keywords",
-      "scope": [
-        "source.sql keyword",
-      ],
+      "scope": ["source.sql keyword"],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
 
     // Dockerfile Overrides
     {
       "name": "Docker: Keyword methods",
-      "scope": [
-        "keyword.other.special-method.dockerfile",
-      ],
+      "scope": ["keyword.other.special-method.dockerfile"],
       "settings": {
-        "foreground": "#09A1ED",
-      },
+        "foreground": "#09A1ED"
+      }
     },
 
     // Elixir Overrides
@@ -1265,111 +1150,91 @@
       "name": "Elixir: Symbols",
       "scope": "constant.other.symbol.elixir",
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
 
     // Elm Overrides
     {
       "name": "Elm: Symbols",
-      "scope": [
-        "storage.type.elm",
-        "support.module.elm",
-      ],
+      "scope": ["storage.type.elm", "support.module.elm"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "Elm: Punctuation",
-      "scope": [
-        "source.elm keyword.other",
-      ],
+      "scope": ["source.elm keyword.other"],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
 
     // Erlang
     {
       "name": "Erlang: Classes",
-      "scope": [
-        "source.erlang entity.name.type.class",
-      ],
+      "scope": ["source.erlang entity.name.type.class"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "Erlang: Properties",
-      "scope": [
-        "variable.other.field.erlang",
-      ],
+      "scope": ["variable.other.field.erlang"],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "Erlang: Symbols",
-      "scope": [
-        "source.erlang constant.other.symbol",
-      ],
+      "scope": ["source.erlang constant.other.symbol"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
 
     // Haskell Overrides
     {
       "name": "Haskell: Types",
-      "scope": [
-        "storage.type.haskell",
-      ],
+      "scope": ["storage.type.haskell"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Haskell: Classes",
       "scope": [
         "meta.declaration.class.haskell storage.type.haskell",
-        "meta.declaration.instance.haskell storage.type.haskell",
+        "meta.declaration.instance.haskell storage.type.haskell"
       ],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "Haskell: Punctuation",
-      "scope": [
-        "meta.preprocessor.haskell",
-      ],
+      "scope": ["meta.preprocessor.haskell"],
       "settings": {
-        "foreground": "#75798F",
-      },
+        "foreground": "#75798F"
+      }
     },
     {
       "name": "Haskell: Control keywords",
-      "scope": [
-        "source.haskell keyword.control",
-      ],
+      "scope": ["source.haskell keyword.control"],
       "settings": {
         // Distinction between regular and control flow keywords
         // doesn't make too much sense in functional languages
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
 
     // Latte Overrides
     {
       "name": "Latte: Punctuation",
-      "scope": [
-        "tag.end.latte",
-        "tag.begin.latte",
-      ],
+      "scope": ["tag.end.latte", "tag.begin.latte"],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
 
     // Gettext
@@ -1412,176 +1277,145 @@
     // OCaml Overrides
     {
       "name": "OCaml: No underlines",
-      "scope": [
-        "source.ocaml markup.underline",
-      ],
+      "scope": ["source.ocaml markup.underline"],
       "settings": {
-        "fontStyle": "",
-      },
+        "fontStyle": ""
+      }
     },
     {
       "name": "OCaml: Control keywords",
       "scope": [
         "source.ocaml punctuation.definition.tag emphasis",
         "source.ocaml entity.name.class constant.numeric",
-        "source.ocaml support.type",
+        "source.ocaml support.type"
       ],
       "settings": {
         // Distinction between regular and control flow keywords
         // doesn't make too much sense in functional languages
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
     {
       "name": "OCaml: Punctuation",
-      "scope": [
-        "source.ocaml constant.numeric entity.other.attribute-name",
-      ],
+      "scope": ["source.ocaml constant.numeric entity.other.attribute-name"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "OCaml: Comments",
-      "scope": [
-        "source.ocaml comment meta.separator",
-      ],
+      "scope": ["source.ocaml comment meta.separator"],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
     {
       "name": "OCaml: Punctuation",
       "scope": [
         "source.ocaml support.type strong",
-        "source.ocaml keyword.control strong",
+        "source.ocaml keyword.control strong"
       ],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
     {
       "name": "OCaml: Properties",
-      "scope": [
-        "source.ocaml support.constant.property-value",
-      ],
+      "scope": ["source.ocaml support.constant.property-value"],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
 
     // Scala Overrides
     {
       "name": "Scala: Overrides",
-      "scope": [
-        "source.scala entity.name.class",
-      ],
+      "scope": ["source.scala entity.name.class"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "Scala: Types",
-      "scope": [
-        "storage.type.scala",
-      ],
+      "scope": ["storage.type.scala"],
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Scala: Properties",
-      "scope": [
-        "variable.parameter.scala",
-      ],
+      "scope": ["variable.parameter.scala"],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "Scala: Punctuation",
-      "scope": [
-        "meta.bracket.scala",
-        "meta.colon.scala",
-      ],
+      "scope": ["meta.bracket.scala", "meta.colon.scala"],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
 
     // Clojure Overrides
     {
       "name": "Clojure: Punctuation",
-      "scope": [
-        "meta.metadata.simple.clojure",
-      ],
+      "scope": ["meta.metadata.simple.clojure"],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
     {
       "name": "Clojure: Symbols",
-      "scope": [
-        "meta.metadata.simple.clojure meta.symbol",
-      ],
+      "scope": ["meta.metadata.simple.clojure meta.symbol"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
 
     // R Overrides
     {
       "name": "R: Punctuation",
-      "scope": [
-        "source.r keyword.other",
-      ],
+      "scope": ["source.r keyword.other"],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
 
     // Svelte Overrides
     {
       "name": "Svelte: Control keywords",
-      "scope": [
-        "source.svelte meta.block.ts entity.name.label",
-      ],
+      "scope": ["source.svelte meta.block.ts entity.name.label"],
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
 
     // AppleScript Overrides
     {
       "name": "AppleScript: Control keywords",
-      "scope": [
-        "keyword.operator.word.applescript",
-      ],
+      "scope": ["keyword.operator.word.applescript"],
       "settings": {
-        "foreground": "#5200E8",
-      },
+        "foreground": "#5200E8"
+      }
     },
 
     // LiveScript Overrides
     {
       "name": "LiveScript: Function calls",
-      "scope": [
-        "meta.function-call.livescript",
-      ],
+      "scope": ["meta.function-call.livescript"],
       "settings": {
-        "foreground": "#09A1ED",
-      },
+        "foreground": "#09A1ED"
+      }
     },
 
     // Lua Overrides
     {
       "name": "Lua: Self",
-      "scope": [
-        "variable.language.self.lua",
-      ],
+      "scope": ["variable.language.self.lua"],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
 
     // Swift Overrides
@@ -1590,29 +1424,25 @@
       "scope": [
         "entity.name.type.class.swift",
         "meta.inheritance-clause.swift",
-        "meta.import.swift entity.name.type",
+        "meta.import.swift entity.name.type"
       ],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "Swift: String Embeds",
-      "scope": [
-        "source.swift punctuation.section.embedded",
-      ],
+      "scope": ["source.swift punctuation.section.embedded"],
       "settings": {
-        "foreground": "#B38700",
-      },
+        "foreground": "#B38700"
+      }
     },
     {
       "name": "Swift: Parameters",
-      "scope": [
-        "variable.parameter.function.swift entity.name.function.swift",
-      ],
+      "scope": ["variable.parameter.function.swift entity.name.function.swift"],
       "settings": {
-        "foreground": "#1B0273",
-      },
+        "foreground": "#1B0273"
+      }
     },
 
     // Twig Overrides
@@ -1620,8 +1450,8 @@
       "name": "Twig: Object entities",
       "scope": "meta.function-call.twig",
       "settings": {
-        "foreground": "#1B0273",
-      },
+        "foreground": "#1B0273"
+      }
     },
 
     // Django Overrides
@@ -1629,18 +1459,15 @@
       "name": "Django: Variables",
       "scope": "string.unquoted.tag-string.django",
       "settings": {
-        "foreground": "#1B0273",
-      },
+        "foreground": "#1B0273"
+      }
     },
     {
       "name": "Django: Punctuation",
-      "scope": [
-        "entity.tag.tagbraces.django",
-        "entity.tag.filter-pipe.django",
-      ],
+      "scope": ["entity.tag.tagbraces.django", "entity.tag.filter-pipe.django"],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
 
     // HAML Overrides
@@ -1648,31 +1475,27 @@
       "name": "HAML: Attributes",
       "scope": [
         "meta.section.attributes.haml constant.language",
-        "meta.section.attributes.plain.haml constant.other.symbol",
+        "meta.section.attributes.plain.haml constant.other.symbol"
       ],
       "settings": {
-        "foreground": "#3866F2",
-      },
+        "foreground": "#3866F2"
+      }
     },
     {
       "name": "HAML: Prolog",
-      "scope": [
-        "meta.prolog.haml",
-      ],
+      "scope": ["meta.prolog.haml"],
       "settings": {
-        "foreground": "#9194A2",
-      },
+        "foreground": "#9194A2"
+      }
     },
 
     // Handlebars Overrides
     {
       "name": "Handlebars: Punctuation",
-      "scope": [
-        "support.constant.handlebars",
-      ],
+      "scope": ["support.constant.handlebars"],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
 
     // Log Overrides
@@ -1680,8 +1503,8 @@
       "name": "Log: Level",
       "scope": "text.log log.constant",
       "settings": {
-        "foreground": "#C25193",
-      },
+        "foreground": "#C25193"
+      }
     },
 
     // C/C++ Overrides
@@ -1689,11 +1512,11 @@
       "name": "C/C++ Overrides",
       "scope": [
         "source.c string constant.other.placeholder",
-        "source.cpp string constant.other.placeholder",
+        "source.cpp string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#B38700",
-      },
+        "foreground": "#B38700"
+      }
     },
 
     // Groovy Overrides
@@ -1701,29 +1524,29 @@
       "name": "Groovy: Keys",
       "scope": "constant.other.key.groovy",
       "settings": {
-        "foreground": "#11658F",
-      },
+        "foreground": "#11658F"
+      }
     },
     {
       "name": "Groovy: Classes",
       "scope": "storage.type.groovy",
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "Groovy: Types",
       "scope": "meta.definition.variable.groovy storage.type.groovy",
       "settings": {
-        "foreground": "#2DAE58",
-      },
+        "foreground": "#2DAE58"
+      }
     },
     {
       "name": "Groovy: Imports",
       "scope": "storage.modifier.import.groovy",
       "settings": {
-        "foreground": "#CF9C00",
-      },
+        "foreground": "#CF9C00"
+      }
     },
 
     // Pug Overrides
@@ -1731,20 +1554,18 @@
       "name": "Pug: Class names & IDs",
       "scope": [
         "entity.other.attribute-name.class.pug",
-        "entity.other.attribute-name.id.pug",
+        "entity.other.attribute-name.id.pug"
       ],
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
     {
       "name": "Pug: Punctuation",
-      "scope": [
-        "constant.name.attribute.tag.pug",
-      ],
+      "scope": ["constant.name.attribute.tag.pug"],
       "settings": {
-        "foreground": "#ADB1C2",
-      },
+        "foreground": "#ADB1C2"
+      }
     },
 
     // Volar Overrides
@@ -1752,8 +1573,8 @@
       "name": "Volar: <style> tag",
       "scope": "entity.name.tag.style.html",
       "settings": {
-        "foreground": "#0597F2",
-      },
+        "foreground": "#0597F2"
+      }
     },
 
     // Wasm Overrides
@@ -1761,8 +1582,8 @@
       "name": "Wasm: Types",
       "scope": "entity.name.type.wasm",
       "settings": {
-        "foreground": "#2DAE58",
-      },
-    },
-  ],
+        "foreground": "#2DAE58"
+      }
+    }
+  ]
 }
