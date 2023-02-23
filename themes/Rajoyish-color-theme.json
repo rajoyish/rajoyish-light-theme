@@ -61,8 +61,8 @@
     "sideBarSectionHeader.border": "#DEDFE0",
 
     // Lists
-    "list.activeSelectionBackground": "#09A1ED",
-    "list.activeSelectionForeground": "#ffffff",
+    "list.activeSelectionBackground": "#2DAE5824",
+    "list.activeSelectionForeground": "#000",
     "list.inactiveSelectionBackground": "#89B5CB33",
     "list.focusBackground": "#BCE7FC99",
     "list.focusForeground": "#11658F",
@@ -161,7 +161,12 @@
 
     // Inlay hints
     "editorInlayHint.foreground": "#1B0273",
-    "editorInlayHint.background": "#E9EAEB"
+    "editorInlayHint.background": "#E9EAEB",
+
+    // Editor widget colors #RB
+    "editorSuggestWidget.selectedBackground": "#2DAE5822",
+    "editorSuggestWidget.selectedForeground": "#2dae58",
+
   },
   "tokenColors": [
     {
