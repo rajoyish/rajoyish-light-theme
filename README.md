@@ -1,4 +1,4 @@
-## 💅🌺 Rajoyish Light Color Theme
+## 🎨💅 Rajoyish Light Color Theme
 
 A light color theme hand-crafted for PHP/Laravel artisans!
 
@@ -6,18 +6,22 @@ A light color theme hand-crafted for PHP/Laravel artisans!
 
 ##### PHP/Laravel
 
-![Rajoyish Theme - PHP/Laravel](https://i.ibb.co/ZB7dm0T/rajoyish-theme.png)
+![Rajoyish Theme - PHP/Laravel](https://i.ibb.co/fSmZCyF/rajoyish-vscode-theme-v4-LARAVEL-PHP.png)
+
+##### Blade/Tailwind CSS
+
+![Rajoyish Theme - Blade/Tailwind CSS](https://i.ibb.co/SPkwKz7/rajoyish-vscode-theme-v4-BLADE.png)
 
 ##### HTML
 
-![Rajoyish Theme - HTML](https://i.ibb.co/KDr0pWh/rajoyish-theme-html.png)
-
-##### CSS
-
-![Rajoyish Theme - CSS](https://i.ibb.co/8DP4PYB/rajoyish-theme-css.png)
+![Rajoyish Theme - HTML](https://i.ibb.co/P9Z83WV/rajoyish-vscode-theme-v4-HTML.png)
 
 ##### JS
 
-![Rajoyish Theme - CSS](https://i.ibb.co/y8gx7kh/rajoyish-theme-js.png)
+![Rajoyish Theme - CSS](https://i.ibb.co/cgRhPVT/rajoyish-vscode-theme-v4-JS.png)
+
+##### CSS
+
+![Rajoyish Theme - CSS](https://i.ibb.co/V2dJ5Mk/rajoyish-vscode-theme-v4-CSS.png)
 
 **Enjoy!**
