@@ -22,7 +22,7 @@
     "titleBar.activeBackground": "#F3F4F5",
 
     // Tabs
-    "tab.activeBorderTop": "#2DAE58",
+    "tab.activeBorderTop": "#017A29",
 
     // Select highlighting
     "editor.wordHighlightBackground": "#ADB1C23A",
@@ -65,7 +65,7 @@
     "list.activeSelectionForeground": "#000",
     "list.inactiveSelectionBackground": "#89B5CB33",
     "list.focusBackground": "#BCE7FC99",
-    "list.focusForeground": "#11658F",
+    "list.focusForeground": "#000",
     "list.hoverBackground": "#E9EAEB",
     "list.errorForeground": "#FF5C56",
     "list.warningForeground": "#B38700",
@@ -84,10 +84,10 @@
     "dropdown.border": "#E9EAEB",
 
     // Primary buttons
-    "button.background": "#2DAE58",
+    "button.background": "#017A29",
 
     // Extensions
-    "extensionButton.prominentBackground": "#2DAE58",
+    "extensionButton.prominentBackground": "#017A29",
     "extensionButton.prominentHoverBackground": "#238744",
 
     // Line numbers
@@ -97,28 +97,28 @@
     // Status bar
     "statusBar.noFolderBackground": "#1B0273",
     "statusBarItem.remoteBackground": "#238744",
-    "statusBar.background": "#2DAE58",
+    "statusBar.background": "#017A29",
     "statusBar.debuggingBackground": "#0597F2",
     "statusBar.debuggingBorder": "#00A39F",
 
     // Activity bar
     "activityBar.background": "#E7E8E6",
-    "activityBar.foreground": "#2DAE58",
+    "activityBar.foreground": "#017A29",
     "activityBarBadge.background": "#09A1ED",
     "activityBar.inactiveForeground": "#68696888",
 
     // Git: Sidebar
-    "gitDecoration.untrackedResourceForeground": "#2DAE58",
+    "gitDecoration.untrackedResourceForeground": "#017A29",
     "gitDecoration.modifiedResourceForeground": "#00A39F",
 
     // Git: Gutter
     "editorGutter.modifiedBackground": "#00A39FAA",
-    "editorGutter.addedBackground": "#2DAE58",
+    "editorGutter.addedBackground": "#017A29",
     "editorGutter.deletedBackground": "#FF5C57",
 
     // Git: Overview ruler
     "editorOverviewRuler.modifiedForeground": "#00A39FAA",
-    "editorOverviewRuler.addedForeground": "#2DAE58",
+    "editorOverviewRuler.addedForeground": "#017A29",
     "editorOverviewRuler.deletedForeground": "#FF5C57",
 
     // Errors & warnings
@@ -152,8 +152,9 @@
     "terminal.ansiBrightBlue": "#14B1FF",
     "terminal.ansiCyan": "#0597F2",
     "terminal.ansiBrightCyan": "#0597F2",
-    "terminal.ansiGreen": "#2DAE58",
+    "terminal.ansiGreen": "#017A29",
     "terminal.ansiBrightGreen": "#35CF68",
+    "terminalCursor.foreground": "#7b08ee",
 
     // Badges
     "badge.background": "#09A1ED",
@@ -165,8 +166,7 @@
 
     // Editor widget colors #RB
     "editorSuggestWidget.selectedBackground": "#2DAE5822",
-    "editorSuggestWidget.selectedForeground": "#2dae58",
-
+    "editorSuggestWidget.selectedForeground": "#2dae58"
   },
   "tokenColors": [
     {
@@ -208,7 +208,7 @@
     //   "name": "Keywords: Blade Directive",
     //   "scope": ["keyword.blade", "text.html.php.blade"],
     //   "settings": {
-    //     "foreground": "#2DAE58"
+    //     "foreground": "#017A29"
     //   }
     // },
     {
@@ -222,7 +222,7 @@
         "meta.function.parameter storage.type"
       ],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -243,7 +243,7 @@
       "name": "Language Constants",
       "scope": ["constant.language", "support.constant", "variable.language"],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -283,7 +283,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -326,7 +326,7 @@
       "name": "Constants",
       "scope": ["constant", "constant.character"],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -401,7 +401,7 @@
       "name": "DocBlock: Type",
       "scope": "comment.block.documentation entity.name.type",
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -555,7 +555,7 @@
       "name": "CSS: Constant",
       "scope": ["source.css support.constant"],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -748,7 +748,7 @@
       "name": "Markup: Heading",
       "scope": "markup.heading",
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -808,6 +808,19 @@
       }
     },
     {
+      "name": "JavaScript: Function storage, flow, conditional, type, loop",
+      "scope": [
+        "storage.type.function.js",
+        "keyword.control.flow.js",
+        "keyword.control.conditional.js",
+        "storage.type.js",
+        "keyword.control.loop.js"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "JavaScript: Special import/export entities",
       "scope": [
         "constant.language.import-export-all",
@@ -860,11 +873,24 @@
       "name": "YAML: Keys",
       "scope": "variable.other.alias.yaml",
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
 
     // PHP Overrides
+    {
+      "name": "PHP: return keyword, function storage, foreach, if, blade directive keyword",
+      "scope": [
+        "keyword.control.return.php",
+        "storage.type.function.php",
+        "keyword.control.foreach.php",
+        "keyword.control.if.php",
+        "keyword.blade"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
     {
       "name": "PHP: Start / End Tags",
       "scope": [
@@ -900,7 +926,7 @@
         "storage.modifier.php"
       ],
       "settings": {
-        "foreground": "#5200E8",
+        "foreground": "#C600E8",
         "fontStyle": "italic"
       }
     },
@@ -919,7 +945,7 @@
         "meta.class.body.php meta.function.php storage.type.php"
       ],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -933,7 +959,7 @@
       "name": "PHP: SQL",
       "scope": ["source.sql.embedded.php keyword.operator"],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
 
@@ -965,7 +991,7 @@
       "name": "Go: Types",
       "scope": ["source.go storage.type"],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -993,7 +1019,7 @@
         "source.reason support.type string.regexp"
       ],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -1037,7 +1063,7 @@
         "source.rust storage.class.std"
       ],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -1062,7 +1088,7 @@
       "name": "C#: Types",
       "scope": ["keyword.type.cs", "storage.type.cs"],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -1085,7 +1111,7 @@
       "name": "Diff: Inserted",
       "scope": ["markup.inserted.diff"],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -1128,7 +1154,7 @@
         "meta.return-type.objc storage.type.objc"
       ],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
 
@@ -1194,7 +1220,7 @@
       "name": "Erlang: Symbols",
       "scope": ["source.erlang constant.other.symbol"],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
 
@@ -1203,7 +1229,7 @@
       "name": "Haskell: Types",
       "scope": ["storage.type.haskell"],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -1344,7 +1370,7 @@
       "name": "Scala: Types",
       "scope": ["storage.type.scala"],
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -1543,7 +1569,7 @@
       "name": "Groovy: Types",
       "scope": "meta.definition.variable.groovy storage.type.groovy",
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     },
     {
@@ -1587,7 +1613,7 @@
       "name": "Wasm: Types",
       "scope": "entity.name.type.wasm",
       "settings": {
-        "foreground": "#2DAE58"
+        "foreground": "#017A29"
       }
     }
   ]
