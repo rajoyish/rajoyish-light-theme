@@ -229,7 +229,7 @@
       "name": "Annotations",
       "scope": ["storage.type.annotation"],
       "settings": {
-        "foreground": "#C25193"
+        "foreground": "#BE001C"
       }
     },
     {
@@ -419,7 +419,7 @@
       "name": "DocBlock: Variable",
       "scope": ["comment.block.documentation variable"],
       "settings": {
-        "foreground": "#C25193"
+        "foreground": "#BE001C"
       }
     },
     {
@@ -492,6 +492,13 @@
 
     // CSS Overrides
     {
+      "name": "Postcss: @apply tailwind rule",
+      "scope": ["entity.other.attribute-name.class.css", "meta.at-rule.apply.tailwind", "meta.property-list.css"],
+      "settings": {
+        "foreground": "#1B0273"
+      }
+    },
+    {
       "name": "CSS: Base font color (just to colorize multi-selector commas correctly)",
       "scope": ["source.css"],
       "settings": {
@@ -517,7 +524,7 @@
         "keyword.control.at-rule punctuation.definition.keyword"
       ],
       "settings": {
-        "foreground": "#C25193"
+        "foreground": "#BE001C"
       }
     },
     {
@@ -605,7 +612,7 @@
       "name": "SCSS: Ampersand",
       "scope": ["entity.name.tag.reference.scss"],
       "settings": {
-        "foreground": "#C25193"
+        "foreground": "#BE001C"
       }
     },
     {
@@ -619,7 +626,7 @@
         "keyword.control.return.scss punctuation.definition.keyword"
       ],
       "settings": {
-        "foreground": "#C25193"
+        "foreground": "#BE001C"
       }
     },
     {
@@ -827,7 +834,7 @@
         "meta.import keyword.control.default"
       ],
       "settings": {
-        "foreground": "#C25193"
+        "foreground": "#BE001C"
       }
     },
     {
@@ -1534,7 +1541,7 @@
       "name": "Log: Level",
       "scope": "text.log log.constant",
       "settings": {
-        "foreground": "#C25193"
+        "foreground": "#BE001C"
       }
     },
 
