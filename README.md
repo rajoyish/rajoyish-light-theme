@@ -1,6 +1,8 @@
-## 🎨💅 Rajoyish Light Color Theme
+![Rajoyish-VSCode-Theme-Cover](images/Rajoyish-Theme-cover.png)
 
+<div align="center">
 A light color theme hand-crafted for PHP/Laravel artisans!
+</div>
 
 #### Screenshots
 

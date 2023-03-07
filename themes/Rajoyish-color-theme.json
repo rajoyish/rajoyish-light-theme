@@ -204,13 +204,6 @@
         "foreground": "#5200E8"
       }
     },
-    // {
-    //   "name": "Keywords: Blade Directive",
-    //   "scope": ["keyword.blade", "text.html.php.blade"],
-    //   "settings": {
-    //     "foreground": "#009850"
-    //   }
-    // },
     {
       "name": "Types",
       "scope": [
