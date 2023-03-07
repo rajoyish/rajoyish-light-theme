@@ -3,7 +3,7 @@
   "type": "light",
   "colors": {
     // General
-    "focusBorder": "#09A1ED",
+    "focusBorder": "#0597F2",
     "foreground": "#686968",
     "selection.background": "#2DAE5844",
     "editorGroup.emptyBackground": "#F3F4F5",
@@ -22,7 +22,7 @@
     "titleBar.activeBackground": "#F3F4F5",
 
     // Tabs
-    "tab.activeBorderTop": "#017A29",
+    "tab.activeBorderTop": "#009850",
 
     // Select highlighting
     "editor.wordHighlightBackground": "#ADB1C23A",
@@ -84,10 +84,10 @@
     "dropdown.border": "#E9EAEB",
 
     // Primary buttons
-    "button.background": "#017A29",
+    "button.background": "#009850",
 
     // Extensions
-    "extensionButton.prominentBackground": "#017A29",
+    "extensionButton.prominentBackground": "#009850",
     "extensionButton.prominentHoverBackground": "#238744",
 
     // Line numbers
@@ -97,28 +97,28 @@
     // Status bar
     "statusBar.noFolderBackground": "#1B0273",
     "statusBarItem.remoteBackground": "#238744",
-    "statusBar.background": "#017A29",
+    "statusBar.background": "#009850",
     "statusBar.debuggingBackground": "#0597F2",
     "statusBar.debuggingBorder": "#00A39F",
 
     // Activity bar
     "activityBar.background": "#E7E8E6",
-    "activityBar.foreground": "#017A29",
-    "activityBarBadge.background": "#09A1ED",
+    "activityBar.foreground": "#009850",
+    "activityBarBadge.background": "#0597F2",
     "activityBar.inactiveForeground": "#68696888",
 
     // Git: Sidebar
-    "gitDecoration.untrackedResourceForeground": "#017A29",
+    "gitDecoration.untrackedResourceForeground": "#009850",
     "gitDecoration.modifiedResourceForeground": "#00A39F",
 
     // Git: Gutter
     "editorGutter.modifiedBackground": "#00A39FAA",
-    "editorGutter.addedBackground": "#017A29",
+    "editorGutter.addedBackground": "#009850",
     "editorGutter.deletedBackground": "#FF5C57",
 
     // Git: Overview ruler
     "editorOverviewRuler.modifiedForeground": "#00A39FAA",
-    "editorOverviewRuler.addedForeground": "#017A29",
+    "editorOverviewRuler.addedForeground": "#009850",
     "editorOverviewRuler.deletedForeground": "#FF5C57",
 
     // Errors & warnings
@@ -128,12 +128,12 @@
     "editorOverviewRuler.warningForeground": "#CF9C00",
 
     // Peek view
-    "peekView.border": "#09A1ED",
+    "peekView.border": "#0597F2",
     "peekViewTitle.background": "#09A1ED11",
     "peekViewEditor.background": "#14B1FF08",
     "peekViewEditor.matchHighlightBackground": "#F5B90088",
     "peekViewEditor.matchHighlightBorder": "#F5B900",
-    "peekViewResult.selectionBackground": "#09A1ED",
+    "peekViewResult.selectionBackground": "#0597F2",
     "peekViewResult.selectionForeground": "#FFFFFF",
     "peekViewResult.matchHighlightBackground": "#F5B90088",
 
@@ -148,16 +148,16 @@
     "terminal.ansiBrightRed": "#FFAEAC",
     "terminal.ansiMagenta": "#5200E8",
     "terminal.ansiBrightMagenta": "#FF94D2",
-    "terminal.ansiBlue": "#09A1ED",
+    "terminal.ansiBlue": "#0597F2",
     "terminal.ansiBrightBlue": "#14B1FF",
     "terminal.ansiCyan": "#0597F2",
     "terminal.ansiBrightCyan": "#0597F2",
-    "terminal.ansiGreen": "#017A29",
+    "terminal.ansiGreen": "#009850",
     "terminal.ansiBrightGreen": "#35CF68",
     "terminalCursor.foreground": "#7b08ee",
 
     // Badges
-    "badge.background": "#09A1ED",
+    "badge.background": "#0597F2",
     "badge.foreground": "#ffffff",
 
     // Inlay hints
@@ -208,7 +208,7 @@
     //   "name": "Keywords: Blade Directive",
     //   "scope": ["keyword.blade", "text.html.php.blade"],
     //   "settings": {
-    //     "foreground": "#017A29"
+    //     "foreground": "#009850"
     //   }
     // },
     {
@@ -222,7 +222,7 @@
         "meta.function.parameter storage.type"
       ],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -243,7 +243,7 @@
       "name": "Language Constants",
       "scope": ["constant.language", "support.constant", "variable.language"],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -264,7 +264,7 @@
       "name": "Functions",
       "scope": ["entity.name.function", "support.function"],
       "settings": {
-        "foreground": "#09A1ED"
+        "foreground": "#0597F2"
       }
     },
     {
@@ -283,7 +283,7 @@
         "support.class"
       ],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -326,7 +326,7 @@
       "name": "Constants",
       "scope": ["constant", "constant.character"],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -401,7 +401,7 @@
       "name": "DocBlock: Type",
       "scope": "comment.block.documentation entity.name.type",
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -562,7 +562,7 @@
       "name": "CSS: Constant",
       "scope": ["source.css support.constant"],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -579,7 +579,7 @@
       "name": "CSS: Functions",
       "scope": ["source.css support.function"],
       "settings": {
-        "foreground": "#09A1ED"
+        "foreground": "#0597F2"
       }
     },
     {
@@ -734,7 +734,7 @@
       "name": "Markup: Link Title",
       "scope": "string.other.link.title.markdown",
       "settings": {
-        "foreground": "#09A1ED"
+        "foreground": "#0597F2"
       }
     },
     {
@@ -755,7 +755,7 @@
       "name": "Markup: Heading",
       "scope": "markup.heading",
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -880,7 +880,7 @@
       "name": "YAML: Keys",
       "scope": "variable.other.alias.yaml",
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
 
@@ -952,7 +952,7 @@
         "meta.class.body.php meta.function.php storage.type.php"
       ],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -966,7 +966,7 @@
       "name": "PHP: SQL",
       "scope": ["source.sql.embedded.php keyword.operator"],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
 
@@ -998,7 +998,7 @@
       "name": "Go: Types",
       "scope": ["source.go storage.type"],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -1026,7 +1026,7 @@
         "source.reason support.type string.regexp"
       ],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -1070,7 +1070,7 @@
         "source.rust storage.class.std"
       ],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -1095,7 +1095,7 @@
       "name": "C#: Types",
       "scope": ["keyword.type.cs", "storage.type.cs"],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -1118,7 +1118,7 @@
       "name": "Diff: Inserted",
       "scope": ["markup.inserted.diff"],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -1132,7 +1132,7 @@
       "name": "Diff: Range",
       "scope": ["meta.diff.range", "meta.diff.index", "meta.separator"],
       "settings": {
-        "foreground": "#09A1ED"
+        "foreground": "#0597F2"
       }
     },
 
@@ -1161,7 +1161,7 @@
         "meta.return-type.objc storage.type.objc"
       ],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
 
@@ -1179,7 +1179,7 @@
       "name": "Docker: Keyword methods",
       "scope": ["keyword.other.special-method.dockerfile"],
       "settings": {
-        "foreground": "#09A1ED"
+        "foreground": "#0597F2"
       }
     },
 
@@ -1227,7 +1227,7 @@
       "name": "Erlang: Symbols",
       "scope": ["source.erlang constant.other.symbol"],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
 
@@ -1236,7 +1236,7 @@
       "name": "Haskell: Types",
       "scope": ["storage.type.haskell"],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -1377,7 +1377,7 @@
       "name": "Scala: Types",
       "scope": ["storage.type.scala"],
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -1443,7 +1443,7 @@
       "name": "LiveScript: Function calls",
       "scope": ["meta.function-call.livescript"],
       "settings": {
-        "foreground": "#09A1ED"
+        "foreground": "#0597F2"
       }
     },
 
@@ -1576,7 +1576,7 @@
       "name": "Groovy: Types",
       "scope": "meta.definition.variable.groovy storage.type.groovy",
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     },
     {
@@ -1620,7 +1620,7 @@
       "name": "Wasm: Types",
       "scope": "entity.name.type.wasm",
       "settings": {
-        "foreground": "#017A29"
+        "foreground": "#009850"
       }
     }
   ]
