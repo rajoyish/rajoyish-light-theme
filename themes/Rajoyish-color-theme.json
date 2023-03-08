@@ -97,15 +97,17 @@
     // Status bar
     "statusBar.noFolderBackground": "#1B0273",
     "statusBarItem.remoteBackground": "#238744",
-    "statusBar.background": "#009850",
+    "statusBar.background": "#1B0273",
     "statusBar.debuggingBackground": "#0597F2",
     "statusBar.debuggingBorder": "#00A39F",
 
     // Activity bar
     "activityBar.background": "#E7E8E6",
-    "activityBar.foreground": "#009850",
-    "activityBarBadge.background": "#0597F2",
-    "activityBar.inactiveForeground": "#68696888",
+    "activityBar.foreground": "#0597F2",
+    "activityBarBadge.background": "#B59410",
+    "activityBar.inactiveForeground": "#3866F2",
+    "activityBar.activeBorder": "#0597F2",
+    "activityBar.activeBackground": "#F3F4F5",
 
     // Git: Sidebar
     "gitDecoration.untrackedResourceForeground": "#009850",
@@ -486,7 +488,11 @@
     // CSS Overrides
     {
       "name": "Postcss: @apply tailwind rule",
-      "scope": ["entity.other.attribute-name.class.css", "meta.at-rule.apply.tailwind", "meta.property-list.css"],
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "meta.at-rule.apply.tailwind",
+        "meta.property-list.css"
+      ],
       "settings": {
         "foreground": "#1B0273"
       }
