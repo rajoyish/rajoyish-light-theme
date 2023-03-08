@@ -1,8 +1,10 @@
 ![Rajoyish-VSCode-Theme-Cover](images/Rajoyish-Theme-cover.png)
 
-<div align="center">
+<div align="center" style="margin-bottom: 2rem;">
 A light color theme hand-crafted for PHP/Laravel artisans!
 </div>
+
+> The theme optimized to meet the WCAG's 4.5:1 contrast ratio guidelines, allowing you to **code comfortably for hours, day or night**. Its high contrast ratio makes foreground and background colors easy to distinguish, enhancing readability and improving your coding experience. Install the theme now to take the first step towards a more comfortable and productive workflow.
 
 #### Screenshots
 
