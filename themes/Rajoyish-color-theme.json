@@ -487,14 +487,47 @@
 
     // CSS Overrides
     {
-      "name": "Postcss: @apply tailwind rule",
+      "name": "CSS: Pseudo Classes, Elements & Attribute Selectors",
+      "scope": [
+        "meta.selector.pseudo-element.css",
+        "meta.selector.pseudo-class.css",
+        "entity.other.attribute-name.css",
+        "entity.other.attribute-name.pseudo-element.before.css",
+        "entity.other.attribute-name.pseudo-element.after.css",
+        "entity.other.attribute-name.pseudo-element.first-letter.css",
+        "entity.other.attribute-name.pseudo-element.first-line.css",
+        "entity.other.attribute-name.pseudo-element.marker.css",
+        "entity.other.attribute-name.pseudo-element.selection.css",
+        "entity.other.attribute-name.pseudo-class.active.css",
+        "entity.other.attribute-name.pseudo-class.hover.css",
+        "entity.other.attribute-name.pseudo-class.focus.css",
+        "entity.other.attribute-name.pseudo-class.disabled.css",
+        "entity.other.attribute-name.pseudo-class.enabled.css",
+        "entity.other.attribute-name.pseudo-class.valid.css",
+        "entity.other.attribute-name.pseudo-class.invalid.css",
+        "entity.other.attribute-name.pseudo-class.first-child.css",
+        "entity.other.attribute-name.pseudo-class.last-child.css",
+        "entity.other.attribute-name.pseudo-class.last-child.css",
+        "entity.other.attribute-name.pseudo-class.nth-child.css",
+        "entity.other.attribute-name.pseudo-class.first-of-type.css",
+        "entity.other.attribute-name.pseudo-class.last-of-type.css",
+        "entity.other.attribute-name.pseudo-class.nth-of-type.css",
+        "entity.other.attribute-name.pseudo-class.checked.css"
+      ],
+      "settings": {
+        "foreground": "#2A8502",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Postcss: @apply tailwind rule & CSS class selector",
       "scope": [
         "entity.other.attribute-name.class.css",
         "meta.at-rule.apply.tailwind",
         "meta.property-list.css"
       ],
       "settings": {
-        "foreground": "#1B0273"
+        "foreground": "#5200E8"
       }
     },
     {
