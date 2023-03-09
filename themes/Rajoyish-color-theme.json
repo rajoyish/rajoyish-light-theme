@@ -159,8 +159,12 @@
     "terminalCursor.foreground": "#7b08ee",
 
     // Badges
-    "badge.background": "#0478C0",
-    "badge.foreground": "#ffffff",
+    "badge.background": "#886F1D",
+    "badge.foreground": "#FAFBFC",
+
+    // Profile Badge: v1.76
+    "profileBadge.background": "#886F1D",
+    "profileBadge.foreground": "#FAFBFC",
 
     // Inlay hints
     "editorInlayHint.foreground": "#1B0273",
