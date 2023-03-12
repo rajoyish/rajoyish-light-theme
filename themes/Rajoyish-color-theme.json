@@ -935,6 +935,13 @@
       }
     },
     {
+      "name": "PHP & JS: Classes Name #RB",
+      "scope": ["meta.class entity.name.type"],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "PHP: Start / End Tags",
       "scope": [
         "punctuation.section.embedded.begin.php",
